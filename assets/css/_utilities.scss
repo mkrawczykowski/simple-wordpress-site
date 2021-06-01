@@ -1,0 +1,88 @@
+/* UTILITIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.pointer {
+    cursor: pointer;
+}
+
+.opacity-80 {
+    opacity: 0.8;
+}
+
+sup {
+    top: -0.4em;
+}
+
+.post-thumb {
+    overflow: hidden;
+    background: white;
+
+    img {
+        transition: all 500ms;
+
+        &:hover {
+            transform: scale(1.1);
+            opacity: 0.9;
+        }
+    }
+}
+
+.pagination {
+    .pages-desc {
+        font-weight: 500;
+    }
+
+    nav.pagination {
+        display: inline-block !important;
+
+        .screen-reader-text {
+            display: none;
+        }
+
+        .nav-links {
+            margin: auto;
+            padding: 0 1em;
+        }
+
+        .page-numbers {
+            display: inline;
+            border-radius: 30px;
+            font-size: 1.2em;
+            text-align: center;
+            margin-left: 0.2em;
+            margin-right: 0.2em;
+            padding: 18px 25px;
+
+            &.prev {
+                width: 2.5em;
+            }
+
+            &.next {
+                width: 2.5em;
+            }
+
+            &.current {
+                background-color: $color-2;
+                border-color: $color-2;
+                color: white;
+            }
+
+            &.dots,
+            &.prev,
+            &.next {
+                border: none;
+            }
+        }
+
+        a.page-numbers {
+            color: $color-1;
+            border: 1px solid $color-1;
+            text-decoration: none;
+
+            &:hover {
+                background-color: $color-1;
+                color: white;
+            }
+        }
+    }
+}

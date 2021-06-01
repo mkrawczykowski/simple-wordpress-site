@@ -1,0 +1,23 @@
+/* Banner main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.jrw-banner-main {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 150px;
+    background-attachment: fixed;
+    transition: 500ms all;
+    padding-bottom: 20%;
+    height: 0;
+    width: 100%;
+
+    &:hover {
+
+            opacity: 0.9;
+            transition: 500ms all;
+        }
+
+}

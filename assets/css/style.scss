@@ -1,0 +1,54 @@
+/*
+
+    Theme Name: JRW Budownictwo
+	Description:  Konstrukcje żelbetowe
+	Version: 1.0.0
+	Author: TheMasterCut.co
+	Tags: budownictwo, żelbety, konstrukcje, jrw
+*/
+
+/* TABBLE OF CONTENTS
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- typography
+- colors
+- base 
+- links
+- buttons
+- forms
+- lists
+- code
+- tables
+- utilities
+
+-other custom styles
+*/
+
+@import "wp-normalize";
+@import "colors";
+@import "typography";
+@import "base";
+@import "links";
+@import "buttons";
+@import "forms";
+@import "maincta";
+@import "lists";
+@import "code";
+@import "tables";
+@import "blockquote";
+@import "hr";
+@import "errors";
+@import "animate";
+@import "utilities";
+@import "social";
+
+@import "banner-main";
+@import "banner-single";
+@import "header-main";
+@import "footer-main";
+@import "mobile-menu";
+@import "header-gallery";
+@import "breadcrumb";
+@import "archive";
+@import "gallery";
+@import "referencje";
+@import "realizacje";

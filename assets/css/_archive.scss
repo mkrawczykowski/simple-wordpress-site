@@ -1,0 +1,13 @@
+/* Archive grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.wp-post-image {
+
+    transition: 500ms all;
+
+    &:hover {
+
+        opacity: 0.9;
+        transition: 500ms all;
+    }
+}

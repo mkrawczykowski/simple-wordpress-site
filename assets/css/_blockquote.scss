@@ -1,0 +1,46 @@
+/* BLOCKQUOTE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+blockquote {
+
+	font-size: 16px;
+	font-style: italic;
+	width: 90%;
+	margin: 0.25em 0;
+	padding: 0.25em 40px;
+	line-height: 1.45;
+	position: relative;
+	color: red;
+	border-left:5px solid $color-1;
+}
+ 
+blockquote cite {
+	color: #efefef;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+
+  
+blockquote cite:before {
+	content: "\2014 \2009";
+}
+
+
+/* MEDIA QUERIES
+
+ 
+ For devices smaller than 1310px 
+
+–––––––––––––––––––––––––––––––––––––––––––––– */
+@media (max-width: 560px) {
+
+	blockquote {
+		width: 80vw;
+
+	}
+
+
+
+}

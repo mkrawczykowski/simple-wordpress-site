@@ -1,0 +1,19 @@
+.breadcrumb-tmc {
+    a {
+        color: $color-1;
+
+        &:hover {
+            color: $color-2;
+            transition: 500ms all;
+        }
+    }
+
+    span.breadcrumb-tmc-separator {
+        color: $color-1;
+        margin: 0 7px;
+    }
+
+    li:last-child {
+        font-weight: 700;
+    }
+}

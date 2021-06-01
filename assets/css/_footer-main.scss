@@ -1,0 +1,51 @@
+/* Footer main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.footer {
+    a {
+        color: $color-3;
+        transition: 500ms all;
+
+        &:hover {
+            color: $color-2;
+            text-decoration: none;
+            transition: 500ms all;
+        }
+    }
+
+    ul.menu-footer {
+        margin: 0;
+        padding: 0;
+        font-family: $font-style-1;
+        list-style: none;
+
+        li {
+            position: relative;
+            a {
+                color: $color-2;
+                font-family: $font-style-1;
+                font-size: 1rem;
+                font-weight: 500;
+                padding: 0;
+
+                &:hover {
+                    transition: 500ms all;
+                    color: $color-3;
+
+                    &:before {
+                        content: "\f178";
+                        font-family: $font-style-3;
+                        font-size: 15px;
+                        width: 30px;
+                        height: 100%;
+                        opacity: 1;
+                        color: $color-2;
+                        position: absolute;
+                        top: 3px;
+                        left: -20px;
+                    }
+                }
+            }
+        }
+    }
+}

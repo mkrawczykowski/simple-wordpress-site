@@ -1,0 +1,41 @@
+/* BASE COLORS
+––––––––––––––––––––––––––––––––––––––––––––––––––  */
+$color-1: #263034; /* color-1 dark blue              */
+$color-2: #ffcc28; /* color-2 warm yellow            */
+$color-3: #ffffff; /* color-3 white                   */
+$color-4: #5e7680; /* color-4                  */
+$color-5: #f4f4f4; /* color-5                  */
+$color-6: #000000;
+$color-7: #f3f3f3;
+
+$colors: (
+    color-1: $color-1,
+    color-2: $color-2,
+    color-3: $color-3,
+    color-4: $color-4,
+    color-5: $color-5,
+    color-6: $color-6,
+    color-7: $color-7,
+);
+
+@each $item, $value in $colors {
+    .#{$item} {
+        color: $value;
+    }
+}
+
+$background: (
+    background-1: $color-1,
+    background-2: $color-2,
+    background-3: $color-3,
+    background-4: $color-4,
+    background-5: $color-5,
+    background-6: $color-6,
+    background-7: $color-7,
+);
+
+@each $item, $value in $background {
+    .#{$item} {
+        background-color: $value;
+    }
+} ;
